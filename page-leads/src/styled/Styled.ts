@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
-/*
-Estilização do Cabeçalho
-*/
+
 export const ContainerHeader=styled.header`
     /* background-color: #111111; */
     display: flex;
@@ -35,16 +33,16 @@ export const ContainerHeader=styled.header`
                 }
         }
 
+        @media (max-width:425px) {
+            display: none;
+
+            nav{
+                display: none;
+            }
+        }
+
 `
 
-/*
-Estilização do Cabeçalho
-*/
-
-
-/*
-Estilização do Banner
-*/
 
 export const ContainerBanner = styled.div`
 background-color: #111111;
@@ -91,14 +89,7 @@ justify-content: center;
                 }
         }
 `
-/*
-Estilização do Banner
-*/
 
-
-/*
-Estilização do Attractive
-*/
 export const ContainerAttractive = styled.div`
 display:  flex;
 justify-content: space-between;
@@ -106,11 +97,13 @@ align-items: center;
 padding: 40px 120px;
 background-color: #111111;
 color:#e5e5e7;
-height: 60vh;
+min-height: 60vh;
+flex-wrap: wrap;
+
 
 
 div{
-    width: 25%;
+    width: 165px;
     text-align: justify;
     img{
         display: block;
@@ -120,23 +113,30 @@ div{
 }
 
 
+@media (max-width:768px) {
+    padding: 40px 60px;
+    gap:30px;
 
+    div{
+        width: 170px;
+    }
+    
 
+}
+@media (max-width:425px) {
+    flex-direction:column;
+    padding: 40px 20px;
 
-
-
-
-
+    div{
+        width: 250px;
+    }
+}
 
 `
-/*
-Estilização do Attractive
-*/
-
 
 export const ContainerAbout = styled.section`
 padding: 40px 120px;
-height: 100vh;
+
 p{
     text-align: center;
 }
@@ -176,6 +176,38 @@ p{
     }
 }
 
+@media (max-width:768px) {
+    
+    padding: 40px 60px;
+    
+    p{
+        text-align: justify;
+    }
+      div{
+        flex-direction: column;  
+      
+    }
+    
+    }
+
+
+@media (max-width:425px) {
+    
+padding: 40px 20px;
+
+p{
+    text-align: justify;
+}
+ h2{
+     font-size: 30px;
+  }
+  div{
+    flex-direction: column;  
+  
+}
+
+}
+
 `
 
 export const ContainerServices = styled.section`
@@ -205,6 +237,24 @@ h2{
     }
   }
 
+@media (max-width:768px) {
+padding: 50px 60px;
+
+section{   
+div:last-child img{ display: none;}
+}
+}
+
+@media (max-width:425px) {
+padding: 50px 20px;
+
+h2{font-size: 30px;}
+
+section{
+    
+div:last-child img{ display: none;}
+  }
+}
 
 
 
