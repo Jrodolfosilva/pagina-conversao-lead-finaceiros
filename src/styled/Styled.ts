@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 
 export const ContainerHeader=styled.header`
-    /* background-color: #111111; */
+   background-color: #111111; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 60px;
+    padding: 20px 60px;
 
     position: fixed;
-    top:5%;
+    top:0%;
+    min-height: 10vh;
     width: 100vw;
     z-index: 99;
 
@@ -94,7 +95,7 @@ export const ContainerAttractive = styled.div`
 display:  flex;
 justify-content: space-between;
 align-items: center;
-padding: 40px 120px;
+padding: 40px 110px;
 background-color: #111111;
 color:#e5e5e7;
 min-height: 60vh;
@@ -103,7 +104,7 @@ flex-wrap: wrap;
 
 
 div{
-    width: 165px;
+    width: 250px;
     text-align: justify;
     img{
         display: block;
@@ -150,7 +151,7 @@ p{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    color:#111111;
+   color:#111111;
     gap:40px;
     margin-top: 20px;
 
@@ -159,9 +160,10 @@ p{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #daa520;
-        color: #e5e5e7;
-        color: #111111;
+        /* background-color: #111111; */
+        /* color: #daa520;
+         */
+        color:#111111;
         padding: 2%;
         border-radius: 2px;
         
@@ -215,7 +217,6 @@ background-color: #18d26e;
 min-height: 100vh;
 padding: 50px 150px;
 
-
 h2{
      font-size: 48px;
      letter-spacing: 1px;
@@ -226,15 +227,13 @@ h2{
   section{
     color:#111111;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap:5vw;
     div:first-child img{
         width: 30px;
     }
 
-    div:last-child img{
-        width: 400px;
-    }
   }
 
 @media (max-width:768px) {

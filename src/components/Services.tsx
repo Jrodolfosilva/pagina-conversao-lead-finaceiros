@@ -16,10 +16,26 @@ return(
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum vero veritatis nihil laudantium ut accusamus officiis inventore neque, nesciunt, recusandae nam hic ad quis facere, labore et in dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum vero veritatis nihil laudantium ut accusamus officiis inventore neque, nesciunt, recusandae nam hic ad quis facere, labore et in dolor.
             </div>
             <div>
-                <img src={Work} alt="" />
+                <p>
+                    <img src={Visto} alt="" />
+                </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum vero veritatis nihil laudantium ut accusamus officiis inventore neque, nesciunt, recusandae nam hic ad quis facere, labore et in dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum vero veritatis nihil laudantium ut accusamus officiis inventore neque, nesciunt, recusandae nam hic ad quis facere, labore et in dolor.
             </div>
+            <div>
+                <p>
+                    <img src={Visto} alt="" />
+                </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum vero veritatis nihil laudantium ut accusamus officiis inventore neque, nesciunt, recusandae nam hic ad quis facere, labore et in dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum vero veritatis nihil laudantium ut accusamus officiis inventore neque, nesciunt, recusandae nam hic ad quis facere, labore et in dolor.
+            </div>
+            <div>
+                <p>
+                    <img src={Visto} alt="" />
+                </p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum vero veritatis nihil laudantium ut accusamus officiis inventore neque, nesciunt, recusandae nam hic ad quis facere, labore et in dolor.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dolorum vero veritatis nihil laudantium ut accusamus officiis inventore neque, nesciunt, recusandae nam hic ad quis facere, labore et in dolor.
+            </div>
+            
         </section>
- 
+       
     </ContainerServices>
 
 )

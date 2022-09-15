@@ -1,5 +1,9 @@
 import React from "react"
 import {ContainerAbout} from "../styled/Styled"
+import imgDadosPessoais from "../assets/dados-pessoais.png"
+import imgVisao from "../assets/visao.png"
+import imgIntercambio from "../assets/intercambio.png"
+import imgmeta from "../assets/meta (1).png"
 
 const About = ()=>{
     return(
@@ -9,14 +13,17 @@ const About = ()=>{
             <div>
             <div>
                <h2>Missão</h2>
+               <img src={imgmeta} alt="" />
                 <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor </p>
             </div>
             <div>
             <h2>Valores</h2>
+            <img src={imgIntercambio} alt="" />
                 <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor </p>
             </div>
             <div>
             <h2>Visão</h2>
+            <img src={imgVisao} alt="" />
                 <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor </p>
             </div>
             </div>
