@@ -6,7 +6,8 @@ import {ContainerFooter} from "../styled/Styled"
 const Footer = ()=>{
     return(
         <ContainerFooter>
-            <>Developerd by Rodolfo Silva</>
+          <div>Developed by Rodolfo Silva</div>
+          <div>@2022</div>
         </ContainerFooter>
     )
 }

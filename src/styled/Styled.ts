@@ -136,7 +136,7 @@ div{
 `
 
 export const ContainerAbout = styled.section`
-padding: 40px 120px;
+padding: 100px 120px;
 
 p{
     text-align: center;
@@ -145,31 +145,30 @@ p{
      font-size: 48px;
      letter-spacing: 1px;
      text-align: center;
-     padding: 60px 0 ;
+     margin-bottom: 30px;
+     
   }
   div{
     display:flex;
     justify-content: space-between;
     align-items: center;
-   color:#111111;
+    color:#111111;
     gap:40px;
     margin-top: 20px;
 
     div{
-        text-align: justify;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        /* background-color: #111111; */
-        /* color: #daa520;
-         */
-        color:#111111;
-        padding: 2%;
-        border-radius: 2px;
+        text-align: justify;
+        padding:2%;     
         
+        img{
+            width: 80px;
+            margin-bottom: -20px;
+        }
         h2{
             font-size: 20px;
-            padding: 0px 0px;
+            margin-bottom: -20px;
         }
         p{
             text-align: justify;
@@ -215,13 +214,13 @@ p{
 export const ContainerServices = styled.section`
 background-color: #18d26e;
 min-height: 100vh;
-padding: 50px 150px;
+padding: 100px 150px;
 
 h2{
      font-size: 48px;
      letter-spacing: 1px;
      text-align: center;
-     padding: 60px 0 ;
+     margin-bottom: 30px;
   }
 
   section{
@@ -230,9 +229,7 @@ h2{
     flex-wrap: wrap;
     justify-content: space-between;
     gap:5vw;
-    div:first-child img{
-        width: 30px;
-    }
+   
 
   }
 
@@ -259,10 +256,15 @@ div:last-child img{ display: none;}
 
 `
 
+export const ContainerContact = styled.section`
+
+
+`
+
 export const ContainerFooter = styled.footer`
-height: 20vh;
+padding: 10vh;
 background-color: #111111;
 text-align: center;
-line-height: 20vh;
+    
 
 `
