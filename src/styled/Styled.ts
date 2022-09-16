@@ -258,3 +258,11 @@ div:last-child img{ display: none;}
 
 
 `
+
+export const ContainerFooter = styled.footer`
+height: 20vh;
+background-color: #111111;
+text-align: center;
+line-height: 20vh;
+
+`
