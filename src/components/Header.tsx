@@ -1,11 +1,13 @@
-import React from "react";
-import {ContainerHeader} from "../styled/Styled";
+import React, { useState } from "react";
+import {ContainerHeader,ContainerMobile} from "../styled/Styled";
 import Logo from "../assets/logo.png";
-
+import Open from "../assets/open.png";
+import Close from "../assets/close.png";
 
 const Header = ()=>{
+    const [onMobile,setOnMobile] = useState(false)
     return(
-        <ContainerHeader>
+        <ContainerHeader props={onMobile}>
             <figure>
                 <img src={Logo} alt="Logomarca" />
             </figure>
@@ -17,6 +19,16 @@ const Header = ()=>{
                     <li>CONTATO</li>
                 </ul>
             </nav>
+            <ContainerMobile>
+                <div
+                onClick={()=>{
+                    setOnMobile(!onMobile)
+                }}
+                >
+                    <img width="30px" src={onMobile?Close:Open} alt="" />
+
+                </div>
+            </ContainerMobile>
         </ContainerHeader>
     )
 }

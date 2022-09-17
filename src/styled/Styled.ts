@@ -35,15 +35,26 @@ export const ContainerHeader=styled.header`
         }
 
         @media (max-width:425px) {
-            display: none;
+            padding: 5px;
 
             nav{
                 display: none;
+                ${({props})=>props.onMobile &&`
+                
+                
+                `}
             }
         }
 
 `
+export const ContainerMobile = styled.div`
+display: none;
 
+@media (max-width:450px) {
+    display: block;
+}
+
+`
 
 export const ContainerBanner = styled.div`
 background-color: #111111;
