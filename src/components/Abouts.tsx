@@ -1,13 +1,16 @@
 import React from "react"
 import {ContainerAbout} from "../styled/Styled"
+// @ts-expect-error
 import imgVisao from "../assets/visao.png"
+// @ts-expect-error
 import imgIntercambio from "../assets/intercambio.png"
+// @ts-expect-error
 import imgmeta from "../assets/meta (1).png"
 
 const About = ()=>{
     return(
         <ContainerAbout>
-            <h2>SOBRE NÓS</h2>
+            <h2 id="empresa">SOBRE NÓS</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vero consectetur quo commodi nisi perferendis distinctio eligendi tempore eius, corrupti ducimus pariatur? Sed ut voluptatem sit, magni id non oditLorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vero consectetur quo commodi nisi perferendis distinctio eligendi tempore eius, corrupti ducimus pariatur? Sed ut voluptatem sit, magni id non odiLorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vero consectetur quo commodi nisi perferendis distinctio eligendi tempore eius, corrupti ducimus pariatur? </p>
             <div>
 

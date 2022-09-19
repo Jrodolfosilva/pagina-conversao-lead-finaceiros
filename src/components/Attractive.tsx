@@ -1,7 +1,10 @@
 import React from "react";
 import {ContainerAttractive} from "../styled/Styled"
+// @ts-expect-error
 import Facil from "../assets/facil.png"
+// @ts-expect-error
 import Agilidade from "../assets/agilidade.png"
+// @ts-expect-error
 import Profissional from "../assets/profissional.png"
 const Attractive = ()=>{
     return (

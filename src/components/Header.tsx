@@ -1,19 +1,23 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom"
 import {ContainerHeader,ContainerMobile} from "../styled/Styled";
+// @ts-expect-error
 import Logo from "../assets/logo.png";
+// @ts-expect-error
 import Open from "../assets/open.png";
+// @ts-expect-error
 import Close from "../assets/close.png";
 
 const Header = ()=>{
     const [onMobile,setOnMobile] = useState(false)
     return(
-        <ContainerHeader props={onMobile}>
+        // @ts-expect-error
+        <ContainerHeader Mobile={onMobile}>
             <figure>
                 <img src={Logo} alt="Logomarca" />
             </figure>
             <nav>
                 <ul>
-                    <li>HOME</li>
                     <li>EMPRESA</li>
                     <li>SERVIÇOS</li>
                     <li>CONTATO</li>

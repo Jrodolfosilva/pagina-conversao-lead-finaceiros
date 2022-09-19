@@ -1,13 +1,13 @@
 import React from "react";
 import {ContainerServices} from "../styled/Styled"
-import Work from "../assets/app.png"
+// @ts-expect-error
 import Visto from "../assets/visto.png"
 
 
 const Services = ()=>{
 return(
     <ContainerServices>
-        <h2>Serviços</h2>
+        <h2 id="services">Serviços</h2>
         <section>
             <div>
                 <p>

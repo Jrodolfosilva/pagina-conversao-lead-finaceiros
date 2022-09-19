@@ -1,5 +1,6 @@
 import React from "react";
 import {ContainerBanner} from "../styled/Styled"
+// @ts-expect-error
 import ImgB from "../assets/banner1.jpg"
 
 
